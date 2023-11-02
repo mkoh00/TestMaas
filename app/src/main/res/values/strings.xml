@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestMaas</string>
+
+    <string name="geo_map_access_token">pk.eyJ1IjoiemlreW1pIiwiYSI6ImNqMGFuam9wcDAweTAyd2xjenUyam5laGEifQ.4RznQYhVwJg2gyLMFzfcKw</string>
+</resources>

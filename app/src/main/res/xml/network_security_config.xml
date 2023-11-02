@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+
+        <domain includeSubdomains="true">127.0.0.1</domain>
+
+        <domain includeSubdomains="true">218.153.121.50</domain>
+        <domain includeSubdomains="true">218.153.121.231</domain>
+        <domain includeSubdomains="true">218.153.121.145</domain>
+        <domain includeSubdomains="true">218.153.121.230</domain>
+        <domain includeSubdomains="true">218.153.121.212</domain>
+
+        <domain includeSubdomains="true">182.162.85.157</domain>
+        <domain includeSubdomains="true">121.165.92.49</domain>
+        <domain includeSubdomains="true">parkinglead.sejongsmartcity.kr</domain>
+    </domain-config>
+</network-security-config>
